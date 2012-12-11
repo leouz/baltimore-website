@@ -1,0 +1,223 @@
+/* Main Classes */
+
+.image
+{
+	background-repeat: no-repeat;
+}
+
+.inline-image
+{
+	@extend .image;
+	float: left;
+}
+
+/* Behaviors */
+
+a:hover > div {
+	opacity:0.6;
+	filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+
+/* Backgrounds */	
+
+.stripe {
+	background-image: url("../images/stripe-background.jpg");
+	background-color: black; 
+}
+.block { background-color: #e5e5e5; }
+
+/* Blocks */
+
+#top-stripe { 
+	@extend .stripe; 
+	height: 170px; 
+}
+#video-block { 
+	height: 650px; 
+	background: #e5e5e5 url("../images/bomb-background.png") 1130px 50px no-repeat; 
+}
+#ep-stripe { 
+	@extend .stripe; 
+	height: 80px; 
+}
+#release-block { 
+	@extend .block; 
+	height: 300px; 
+}
+#botton-stripe {
+ 	@extend .stripe; 
+ 	height: 61px; 
+}
+
+/* top-stripe */
+
+#title { 
+	@extend .inline-image;
+	width: 373px; height: 85px;
+	margin-top: 54px;
+	margin-left: 0px;
+	background-image: url("../images/title.png"); 
+}
+
+#top-link-twitter {
+	@extend .inline-image;
+	margin: 75px 24px 0px 25px;
+	width: 72px; height: 28px;
+	background-image: url("../images/top-link-twitter.png"); 
+}
+
+#top-link-facebook { 
+	@extend .inline-image;
+	margin: 75px 18px 0px 25px;
+	width: 80px; height: 28px;
+	background-image: url("../images/top-link-facebook.png"); 
+}
+
+#top-link-youtube {
+	@extend .inline-image;
+	margin: 75px 24px 0px 24px;
+	width: 73px; height: 28px;
+	background-image: url("../images/top-link-youtube.png"); 
+}
+
+#top-link-email {
+	@extend .inline-image;
+	margin: 75px 28px 0px 28px;
+	width: 65px; height: 28px;
+	background-image: url("../images/top-link-email.png"); 
+}
+
+/* video-block */
+
+#clique-e-assista-deixa-eu-acordar-doente { 
+	width: 442px; height: 42px;
+	margin-top: 44px;
+	@extend .image;	
+	background-image: url("../images/clique-e-assista-deixa-eu-acordar-doente.png"); 
+}
+#video {
+	margin-top: 10px;
+}
+#video-below {
+	margin-top: 18px;
+}
+#compartilhar {
+	margin-left: 32px;
+	margin-top: 3px;
+	width: 88px; height: 21px;
+ 	@extend .inline-image; 
+	background-image: url("../images/compartilhar.png"); 
+}
+#share-link-facebook { 
+	margin-left: 8px;
+	width: 29px; height: 27px;
+	@extend .inline-image; 
+	background-image: url("../images/share-link-facebook.png"); 
+}
+#share-link-twitter {
+	margin-left: 3px;
+	width: 29px; height: 27px;
+  @extend .inline-image; 
+  background-image: url("../images/share-link-twitter.png"); 
+}
+#download-icon { 
+	margin-left: 33px;
+	width: 29px; height: 26px;
+	@extend .inline-image; 
+	background-image: url("../images/download-icon.png"); 
+}
+#baixar-esta-musica { 
+	margin-top: 3px;
+	margin-left: 8px;
+	width: 122px; height: 21px;
+	@extend .inline-image;
+	background-image: url("../images/baixar-esta-musica.png"); 
+}
+
+/* ep-stripe */
+
+#baltimore-ep-cover {
+	top: 800px; left: 763px; 
+	position: absolute;
+	z-index: 999;
+	width: 135px; height: 136px;
+	@extend .image;
+	background-image: url("../images/baltimore-ep-cover.png"); 
+}
+
+#download-icon-white {
+	margin-left: 27px;
+	margin-top: 26px;
+	width: 35px; height: 32px;
+	@extend .inline-image;
+	background-image: url("../images/download-icon-white.png"); 
+}
+#baixe-tambem-o-ep-de-estreia { 
+	margin-top: 21px;
+	margin-left: 8px;
+	width: 399px; height: 38px;
+	@extend .inline-image;
+	background-image: url("../images/baixe-tambem-o-ep-de-estreia.png"); 
+}
+
+#incluindo-la-no-alto { 
+	margin-top: 18px;
+	margin-left: 8px;
+	width: 207px; height: 46px;
+	@extend .inline-image;
+	background-image: url("../images/incluindo-la-no-alto.png"); 
+}
+
+/* release-block */
+
+#logo { 
+	margin-top: 50px;
+	margin-left: 30px;
+	width: 178px; height: 188px;
+	@extend .inline-image;
+	background-image: url("../images/logo.png"); 
+}
+#text { 
+	margin-top: 90px;
+	margin-left: 5px;
+	width: 542px; height: 148px;
+	@extend .inline-image;
+	background-image: url("../images/text.png"); 
+}
+
+/* bottom-stripe */
+
+#veja-mais-de-baltimore { 
+	margin-top: 14px;
+	margin-left: 17px;
+	width: 207px; height: 46px;
+	@extend .inline-image;
+	background-image: url("../images/veja-mais-de-baltimore.png"); 
+}
+
+.bottom-links-top {
+	margin-top: 18px;
+}
+
+#bottom-twitter-link { 
+	@extend .bottom-links-top;
+	margin-left: 28px;
+	@extend .inline-image;
+	width: 68px; height: 25px;
+	background-image: url("../images/bottom-link-twitter.png"); 
+}
+#bottom-facebook-link { 
+	@extend .bottom-links-top;
+	margin-left: 18px;
+	@extend .inline-image;
+	width: 75px; height: 25px;
+	background-image: url("../images/bottom-link-facebook.png"); 
+}
+#bottom-youtube-link {
+	@extend .bottom-links-top;
+	margin-left: 18px;
+	@extend .inline-image;
+	width: 68px; height: 25px;
+	background-image: url("../images/bottom-link-youtube.png"); 
+}
+
