@@ -1,0 +1,55 @@
+CACHE MANIFEST
+
+# Time: Wed Dec 12 2012 00:49:30 GMT-0200 (BRST)
+# This manifest was created by confess.js, http://github.com/jamesgpearce/confess
+#
+# Retrieved URL: http://localhost:3501/
+# User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.12 Safari/535.11
+#
+# Config:
+#  task: appcache
+#  userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.12 Safari/535.11
+#  wait: 0
+#  consolePrefix: #
+#  verbose: true
+#  appcache:
+#   urlsFromDocument: true
+#   urlsFromRequests: false
+#   cacheFilter: .*
+#   networkFilter: null
+#  url: http://localhost:3501
+#  configFile: /usr/local/lib/node_modules/yeoman/lib/support/confess.json
+
+CACHE:
+http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js
+http://localhost:3501/images/baixar-esta-musica.png
+http://localhost:3501/images/baixe-tambem-o-ep-de-estreia.png
+http://localhost:3501/images/baltimore-ep-cover.png
+http://localhost:3501/images/bomb-background.png
+http://localhost:3501/images/bottom-link-facebook.png
+http://localhost:3501/images/bottom-link-twitter.png
+http://localhost:3501/images/bottom-link-youtube.png
+http://localhost:3501/images/clique-e-assista-deixa-eu-acordar-doente.png
+http://localhost:3501/images/compartilhar.png
+http://localhost:3501/images/download-icon-white.png
+http://localhost:3501/images/download-icon.png
+http://localhost:3501/images/incluindo-la-no-alto.png
+http://localhost:3501/images/logo.png
+http://localhost:3501/images/share-link-facebook.png
+http://localhost:3501/images/share-link-twitter.png
+http://localhost:3501/images/stripe-background.jpg
+http://localhost:3501/images/text.png
+http://localhost:3501/images/title.png
+http://localhost:3501/images/top-link-email.png
+http://localhost:3501/images/top-link-facebook.png
+http://localhost:3501/images/top-link-twitter.png
+http://localhost:3501/images/top-link-youtube.png
+http://localhost:3501/images/veja-mais-de-baltimore.png
+http://www.google-analytics.com/ga.js
+scripts/vendor/cf69c6f2.modernizr.min.js
+styles/8682abd0.reset.css
+styles/aee7d43a.main.css
+styles/f6d4fab8.960_22_col.css
+
+NETWORK:
+*
