@@ -1,6 +1,6 @@
 CACHE MANIFEST
 
-# Time: Wed Dec 12 2012 00:49:30 GMT-0200 (BRST)
+# Time: Wed Dec 12 2012 22:55:05 GMT-0200 (BRST)
 # This manifest was created by confess.js, http://github.com/jamesgpearce/confess
 #
 # Retrieved URL: http://localhost:3501/
@@ -48,7 +48,7 @@ http://localhost:3501/images/veja-mais-de-baltimore.png
 http://www.google-analytics.com/ga.js
 scripts/vendor/cf69c6f2.modernizr.min.js
 styles/8682abd0.reset.css
-styles/aee7d43a.main.css
+styles/92a1bc22.main.css
 styles/f6d4fab8.960_22_col.css
 
 NETWORK:

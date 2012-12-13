@@ -33,9 +33,15 @@ a:hover > div {
 	height: 170px; 
 }
 #video-block { 
-	height: 650px; 
+	@extend .block; 
+	height: 625px; 
 	background: #e5e5e5 url("../images/bomb-background.png") 1130px 50px no-repeat; 
 }
+#ep-block {
+	@extend .block;
+	height: 25px;
+}
+
 #ep-stripe { 
 	@extend .stripe; 
 	height: 80px; 
@@ -136,10 +142,14 @@ a:hover > div {
 
 /* ep-stripe */
 
+#ep-block > .container {
+	position: relative;
+}
+
 #baltimore-ep-cover {
-	top: 800px; left: 763px; 
+	top: 0; left: 516px; 
 	position: absolute;
-	z-index: 999;
+	z-index: 99;
 	width: 135px; height: 136px;
 	@extend .image;
 	background-image: url("../images/baltimore-ep-cover.png"); 
